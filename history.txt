@@ -1,0 +1,35 @@
+   0 ls-la
+   1 cd ..
+   2 cd home
+   3 mkdir user1
+   4 ls
+   5 cd user1/
+   6 mkdir task1
+   7 cd  task1
+   8 touch file1.txt
+   9 ls
+  10 cd /home
+  11 cd
+  12 mkdir /home/user2
+  13 ls
+  14 ls -al
+  15 ls /home
+  16 mkdir /home/user2/task2
+  17 tree /home
+  18 touch /home/user2/task2/file2.txt
+  19 tree /home
+  20 mkdir /home/user3/task3
+  21 mkdir -p /home/user3/task3/file3.txt
+  22 rm --help
+  23 rm /home/user3/task3/file3.txt
+  24 rm -r /home/user3/task3/file3.txt
+  25 rm -r /home/user3/task3/file3.txt/
+  26 tree /home
+  27 touch /home/user3/task3/file3.txt
+  28 cp /home/user1/task1/file1.txt /tmp/file.txt
+  29 cp -r /home/user2 /tmp
+  30 tree /tmp
+  31 mv /home/user3/task3 /tmp
+  32 tree /tmp
+  33 history
+  34 history > history.txt
